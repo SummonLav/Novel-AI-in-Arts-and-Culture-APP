@@ -1,0 +1,1 @@
+# Novel-AI-in-Arts-and-Culture-APP
