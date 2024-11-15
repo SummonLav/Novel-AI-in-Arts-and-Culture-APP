@@ -11,7 +11,7 @@ import SwiftUI
 struct Novel_AI_in_Arts_and_Culture_APPApp: App {
     var body: some Scene {
         WindowGroup {
-            AIChatbotView()
+            ContentView()
         }
     }
 }

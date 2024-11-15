@@ -57,6 +57,7 @@ struct AIChatbotView: View {
                             .foregroundStyle(.white)
                             .padding(10.0)
                             .frame(maxWidth: 280)
+//                            .background(Color.warmYellow.opacity(0.2).cornerRadius(20))
                             .background(Color.gray.opacity(0.2).cornerRadius(20))
                     }
                     .frame(maxWidth: .infinity, alignment: .leading)

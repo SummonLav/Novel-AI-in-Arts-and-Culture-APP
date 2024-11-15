@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		281DBE6A2CCDCFAE00657104 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 281DBE692CCDCFAE00657104 /* SDWebImageSwiftUI */; };
+		284D18222CE674E30050EE52 /* OpenAI in Frameworks */ = {isa = PBXBuildFile; productRef = 284D18212CE674E30050EE52 /* OpenAI */; };
+		287D64A42CE3B0E70004A632 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 287D64A32CE3B0E70004A632 /* FirebaseAuth */; };
+		287D64A62CE3B0E70004A632 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 287D64A52CE3B0E70004A632 /* FirebaseFirestore */; };
+		287D64A82CE3B0E70004A632 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 287D64A72CE3B0E70004A632 /* FirebaseFirestoreCombine-Community */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +60,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				284D18222CE674E30050EE52 /* OpenAI in Frameworks */,
 				281DBE6A2CCDCFAE00657104 /* SDWebImageSwiftUI in Frameworks */,
+				287D64A82CE3B0E70004A632 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				287D64A42CE3B0E70004A632 /* FirebaseAuth in Frameworks */,
+				287D64A62CE3B0E70004A632 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +126,10 @@
 			name = "Novel-AI-in-Arts-and-Culture-APP";
 			packageProductDependencies = (
 				281DBE692CCDCFAE00657104 /* SDWebImageSwiftUI */,
+				287D64A32CE3B0E70004A632 /* FirebaseAuth */,
+				287D64A52CE3B0E70004A632 /* FirebaseFirestore */,
+				287D64A72CE3B0E70004A632 /* FirebaseFirestoreCombine-Community */,
+				284D18212CE674E30050EE52 /* OpenAI */,
 			);
 			productName = "Novel-AI-in-Arts-and-Culture-APP";
 			productReference = 2858B2A92CC0597D008A54B7 /* Novel-AI-in-Arts-and-Culture-APP.app */;
@@ -203,6 +215,8 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				281DBE682CCDCFAE00657104 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				287D64A22CE3B0E70004A632 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				284D18202CE674E30050EE52 /* XCRemoteSwiftPackageReference "OpenAI" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 2858B2AA2CC0597D008A54B7 /* Products */;
@@ -571,6 +585,22 @@
 				minimumVersion = 3.1.2;
 			};
 		};
+		284D18202CE674E30050EE52 /* XCRemoteSwiftPackageReference "OpenAI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MacPaw/OpenAI.git";
+			requirement = {
+				kind = exactVersion;
+				version = 0.2.7;
+			};
+		};
+		287D64A22CE3B0E70004A632 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.4.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -578,6 +608,26 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 281DBE682CCDCFAE00657104 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
 			productName = SDWebImageSwiftUI;
+		};
+		284D18212CE674E30050EE52 /* OpenAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 284D18202CE674E30050EE52 /* XCRemoteSwiftPackageReference "OpenAI" */;
+			productName = OpenAI;
+		};
+		287D64A32CE3B0E70004A632 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 287D64A22CE3B0E70004A632 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		287D64A52CE3B0E70004A632 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 287D64A22CE3B0E70004A632 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		287D64A72CE3B0E70004A632 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 287D64A22CE3B0E70004A632 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
