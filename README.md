@@ -1,7 +1,7 @@
 # Feature Highlights
 
 ### [UPDATE] AI-Powered Chatting with Iconic Artists  
-Imagine conversing with your favorite artists, like **Van Gogh**, in a realistic chat format! By adding your own API key, this feature unlocks the potential to engage in meaningful, AI-generated conversations with cultural icons. Whether you seek inspiration, insights, or simply a creative exchange, this feature offers an unprecedented level of interaction that bridges the gap between historical figures and modern technology.
+Imagine conversing with your favorite artists, like **Van Gogh**, in a realistic chat format! This feature unlocks the potential to engage in meaningful, AI-generated conversations with cultural icons. Whether you seek inspiration, insights, or simply a creative exchange, this feature offers an unprecedented level of interaction that bridges the gap between historical figures and modern technology. (Remember to add your own OpenAI API Key in the ContenView.swift!)
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/532c8735-589d-4932-8346-aa99ed1f685f" width="200" alt="Chatting Feature Available">
